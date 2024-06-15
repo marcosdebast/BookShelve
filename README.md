@@ -34,3 +34,11 @@ BookShelve is a demo iOS project built using SwiftUI, MVVM architecture, and Cor
 | ![Detail](./Screenshots/Detail.png) | ![Reading Session](./Screenshots/ReadingSession.png) |
 
 <br>
+
+## **Annotations Screen:**
+
+| Annotations                                   | Swipe to Edit/Delete                                        | Edit Annotation                                      |
+|-----------------------------------------------|-------------------------------------------------------------|------------------------------------------------------|
+| ![Annotations](./Screenshots/Annotations.png) | ![Swipe to Edit/Delete](./Screenshots/AnnotationsSwipe.png) | ![Edit Annotation](./Screenshots/EditAnnotation.png) |
+
+<br>
