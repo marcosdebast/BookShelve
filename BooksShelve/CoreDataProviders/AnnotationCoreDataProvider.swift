@@ -67,6 +67,7 @@ struct AnnotationCoreDataProvider: CoreDataProvider {
         existingAnnotation.page = annotation.page.numberValue
         try viewContext.save()
 
+        viewModel.updateListID()
         viewModel.refreshData()
     }
 }

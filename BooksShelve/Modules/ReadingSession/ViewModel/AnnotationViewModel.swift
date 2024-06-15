@@ -8,6 +8,7 @@
 import SwiftUI
 
 protocol AnnotationDataUpdater {
+    func updateListID()
     func editAnnotation(annotation: Annotation) throws
     func deleteAnnotation(annotation: Annotation) throws
 }
@@ -46,8 +47,11 @@ final class AnnotationViewModel {
 }
 
 extension AnnotationViewModel: AnnotationDataUpdater {
+    func updateListID() {
+        id = UUID()
+    }
+    
     func editAnnotation(annotation: Annotation) throws {
-        id = .init()
         try annotationDataCoreData.updateOnStorage(annotation)
     }
     
